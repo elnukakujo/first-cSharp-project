@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/njag/first-cSharp-project/ConsoleApp1/ConsoleApp1.csproj": {}
+    "/home/njag/CsProjects/first-cSharp-project/MyFirstApp/MyFirstApp.csproj": {}
   },
   "projects": {
-    "/home/njag/first-cSharp-project/ConsoleApp1/ConsoleApp1.csproj": {
+    "/home/njag/CsProjects/first-cSharp-project/MyFirstApp/MyFirstApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/njag/first-cSharp-project/ConsoleApp1/ConsoleApp1.csproj",
-        "projectName": "ConsoleApp1",
-        "projectPath": "/home/njag/first-cSharp-project/ConsoleApp1/ConsoleApp1.csproj",
+        "projectUniqueName": "/home/njag/CsProjects/first-cSharp-project/MyFirstApp/MyFirstApp.csproj",
+        "projectName": "MyFirstApp",
+        "projectPath": "/home/njag/CsProjects/first-cSharp-project/MyFirstApp/MyFirstApp.csproj",
         "packagesPath": "/home/njag/.nuget/packages/",
-        "outputPath": "/home/njag/first-cSharp-project/ConsoleApp1/obj/",
+        "outputPath": "/home/njag/CsProjects/first-cSharp-project/MyFirstApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/njag/.nuget/NuGet/NuGet.Config"

@@ -12,9 +12,15 @@ The purpose of this environment is for me to learn how to use C# and .Net, as we
 ## Creation of a C# project
 
 1. Create a folder/github repo where you want your project to be
-2. Type Ctrl+Alt+P and select .NET: New Project...
-3. Choose what project you want (Here Console App)
+2. Using cmd go to that folder in the terminal
+3. Create the project using:
+    dotnet new {typeOfApp} -n {appName}
+
+### Types of app
+
+See https://learn.microsoft.com/en-us/dotnet/framework/get-started/overview#net-framework-class-library
 
 ## Run the app
 
-### Go to Run and Debug, select your app and run it
+### Type in terminal 
+    dotnet run

@@ -23,4 +23,4 @@ See https://learn.microsoft.com/en-us/dotnet/framework/get-started/overview#net-
 ## Run the app
 
 ### Type in terminal 
-    ```dotnet run```
+    dotnet run

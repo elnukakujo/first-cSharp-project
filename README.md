@@ -15,6 +15,7 @@ The purpose of this environment is for me to learn how to use C# and .Net, as we
 2. Using cmd go to that folder in the terminal
 3. Create the project using:
     ```dotnet new {typeOfApp} -n {appName}```
+4. ```cd {appName}```
 
 ### Types of app
 

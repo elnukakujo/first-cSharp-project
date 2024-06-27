@@ -14,6 +14,7 @@ The purpose of this environment is for me to learn how to use C# and .Net, as we
 1. Create a folder/github repo where you want your project to be
 2. Using cmd go to that folder in the terminal
 3. Create the project using:
+    
     dotnet new {typeOfApp} -n {appName}
 
 ### Types of app

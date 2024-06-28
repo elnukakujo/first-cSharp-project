@@ -25,3 +25,13 @@ See https://learn.microsoft.com/en-us/dotnet/framework/get-started/overview#net-
 
 ### Type in terminal 
     dotnet run
+
+## Saving the data in a databse
+1. NuGet packages must be added to support the database and diagnostics used in this tutorial. Type in Terminal:
+
+```dotnet add package Microsoft.EntityFrameworkCore.InMemory```
+
+```dotnet add package Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore```
+
+For more information, see:
+https://learn.microsoft.com/en-ca/aspnet/core/tutorials/min-web-api?view=aspnetcore-8.0&tabs=visual-studio-code#add-nuget-packages

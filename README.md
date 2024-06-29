@@ -46,6 +46,8 @@ dotnet tool install --global dotnet-ef
 dotnet ef migrations add InitialCreate
 dotnet ef database update
 ```
+4. More modifications middleware needs to be applied. For an example of a functionning code, see:
+https://github.com/elnukakujo/Book-Library-Management-API
 
 For more information, see:
 https://learn.microsoft.com/en-ca/aspnet/core/tutorials/min-web-api?view=aspnetcore-8.0&tabs=visual-studio-code#add-nuget-packages

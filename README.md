@@ -25,7 +25,7 @@ See https://learn.microsoft.com/en-us/dotnet/framework/get-started/overview#net-
 
     dotnet run
 
-#### (Following is not necessary for this project)
+**(Following is not necessary for this project)**
 
 ## Saving the data in a database
 1. Packages must be added.

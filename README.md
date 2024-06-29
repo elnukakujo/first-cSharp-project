@@ -23,15 +23,29 @@ See https://learn.microsoft.com/en-us/dotnet/framework/get-started/overview#net-
 
 ## Run the app
 
-### Type in terminal 
     dotnet run
 
 ## Saving the data in a databse
-1. NuGet packages must be added to support the database and diagnostics used in this tutorial. Type in Terminal:
-
-```dotnet add package Microsoft.EntityFrameworkCore.InMemory```
-
-```dotnet add package Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore```
+1. Packages must be added.
+```
+dotnet add package Microsoft.EntityFrameworkCore.InMemory
+dotnet add package Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore
+dotnet add package NSwag.AspNetCore
+dotnet add package Microsoft.EntityFrameworkCore.Sqlite
+dotnet add package Microsoft.EntityFrameworkCore.Design
+```
+2. Add to appsettings.json
+```
+"ConnectionStrings": {
+    "BookLibraryConnection": "Data Source=booklibrary.db"
+  }
+```
+3. Create and apply the migrations
+```
+dotnet tool install --global dotnet-ef
+dotnet ef migrations add InitialCreate
+dotnet ef database update
+```
 
 For more information, see:
 https://learn.microsoft.com/en-ca/aspnet/core/tutorials/min-web-api?view=aspnetcore-8.0&tabs=visual-studio-code#add-nuget-packages

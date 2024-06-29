@@ -27,7 +27,7 @@ See https://learn.microsoft.com/en-us/dotnet/framework/get-started/overview#net-
 
 #### (Following is not necessary for this project)
 
-## Saving the data in a databse
+## Saving the data in a database
 1. Packages must be added.
 ```
 dotnet add package Microsoft.EntityFrameworkCore.InMemory
